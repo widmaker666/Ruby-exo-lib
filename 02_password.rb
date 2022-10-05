@@ -12,7 +12,7 @@ return mdp
 end
 
 def login
-    puts "J'ai besoin de ton mot de passe pour te connecter"
+    puts "Retape ton mot de passe pour te connecter"
     print ">"
     m = gets.chomp
 return m
@@ -41,7 +41,7 @@ def exec
         puts pagesec
     else 
         mdp != m  
-        puts "Dommage pour tu ne rentre pas "
+        puts "Arrête de vouloir pirater le serveur ! Pangolin § "
     
     end      
 end   
